@@ -25,6 +25,7 @@ public class LoginRepository {
         if (instance == null) {
             instance = new LoginRepository(dataSource);
         }
+
         return instance;
     }
 
